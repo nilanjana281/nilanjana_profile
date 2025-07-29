@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilanjana Chatterjee - Senior Product Owner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .highlight-card {
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .highlight-card:hover {
+             transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.8rem;
+            top: 0.5rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 50%;
+            background-color: #2563eb;
+            border: 4px solid #ffffff;
+        }
+        .project-highlight-card {
+            border: 1px solid #e5e7eb;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-highlight-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.07);
+        }
+        .skill-tag {
+            display: inline-block;
+            background-color: #e0e7ff;
+            color: #3730a3;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin: 0.25rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/90 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900 tracking-tight">Nilanjana Chatterjee</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                <a href="#highlights" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Highlights</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Experience</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600">About</a>
+            <a href="#highlights" class="block py-2 text-gray-600 hover:text-blue-600">Highlights</a>
+            <a href="#experience" class="block py-2 text-gray-600 hover:text-blue-600">Experience</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-20">
+
+        <!-- Hero Section -->
+        <section id="hero" class="text-center mb-20 md:mb-32">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 leading-tight">Senior Product Owner</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">Expert in translating business vision into actionable backlogs, leading Agile teams, and delivering high-value e-commerce and FinTech solutions.</p>
+            <div class="flex justify-center items-center space-x-6 text-gray-600">
+                <a href="mailto:nilanjana.chatterjee1989@gmail.com" class="flex items-center hover:text-blue-600 transition-colors">
+                    <i class="fas fa-envelope w-5 h-5 mr-2"></i>
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/nilanjana-chatterjjee" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-blue-600 transition-colors">
+                    <i class="fab fa-linkedin w-5 h-5 mr-2"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mb-20 md:mb-28 scroll-mt-20">
+            <div class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">About Me</h2>
+                <p class="text-lg text-gray-700 leading-relaxed text-center">
+                    As a Certified Scrum Product Owner (CSPO), I excel at the intersection of business strategy and technical execution. My passion lies in owning the product backlog, meticulously defining user stories, and prioritizing features to maximize value for both the customer and the business. I have a proven track record of leading development teams in Agile environments to build and launch successful products that meet market needs and drive growth.
+                </p>
+            </div>
+        </section>
+
+        <!-- Client & Project Highlights Section -->
+        <section id="highlights" class="mb-20 md:mb-28 scroll-mt-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Client & Project Highlights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Highlight 1: Product Strategy for E-commerce Clients -->
+                <div class="bg-white p-8 rounded-xl project-highlight-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-store text-3xl text-blue-600 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-800">Product Strategy for E-commerce Clients</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        For various B2B and B2C retail clients, I defined the complete product vision, created multi-quarter roadmaps, and developed go-to-market strategies for new e-commerce platforms and features. This involved deep market analysis and stakeholder alignment to ensure products were positioned for success.
+                    </p>
+                    <div class="mt-auto pt-4 border-t border-gray-200">
+                        <h4 class="font-semibold mb-2 text-gray-700">Skills Utilized:</h4>
+                        <span class="skill-tag">Product Vision & Roadmap</span>
+                        <span class="skill-tag">Go-to-Market Strategy</span>
+                        <span class="skill-tag">Stakeholder Management</span>
+                        <span class="skill-tag">Competitive Analysis</span>
+                        <span class="skill-tag">Agile Methodologies</span>
+                    </div>
+                </div>
+
+                <!-- Highlight 2: FinTech Payment Gateway Development -->
+                <div class="bg-white p-8 rounded-xl project-highlight-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-credit-card text-3xl text-green-600 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-800">FinTech Payment Gateway Development</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        As the Product Owner for a Canada-based bank, I led the end-to-end development of a secure payment gateway. I was responsible for gathering requirements, defining the product backlog with detailed user stories, and ensuring the final product complied with stringent financial regulations and integrated seamlessly with banking APIs.
+                    </p>
+                     <div class="mt-auto pt-4 border-t border-gray-200">
+                        <h4 class="font-semibold mb-2 text-gray-700">Skills Utilized:</h4>
+                        <span class="skill-tag">Product Lifecycle Management</span>
+                        <span class="skill-tag">Backlog Prioritization</span>
+                        <span class="skill-tag">User Stories & Epics</span>
+                        <span class="skill-tag">API Integrations</span>
+                        <span class="skill-tag">Regulatory Compliance</span>
+                    </div>
+                </div>
+
+                <!-- Highlight 3: E-commerce Re-platforming Projects -->
+                <div class="bg-white p-8 rounded-xl project-highlight-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-rocket text-3xl text-purple-600 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-800">E-commerce Re-platforming Leadership</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        I spearheaded multi-million-dollar re-platforming projects for SaaS and retail clients, migrating them to platforms like Salesforce Commerce Cloud, Magento, and VTex. My role was to own the feature backlog, prioritize migration phases, and work with development teams to ensure a smooth transition with maximum business continuity.
+                    </p>
+                     <div class="mt-auto pt-4 border-t border-gray-200">
+                        <h4 class="font-semibold mb-2 text-gray-700">Skills Utilized:</h4>
+                        <span class="skill-tag">Platform Migration</span>
+                        <span class="skill-tag">Salesforce Commerce Cloud</span>
+                        <span class="skill-tag">Backlog Management</span>
+                        <span class="skill-tag">Release Planning</span>
+                        <span class="skill-tag">Risk Management</span>
+                    </div>
+                </div>
+
+                <!-- Highlight 4: AI-Powered Personalization Initiatives -->
+                <div class="bg-white p-8 rounded-xl project-highlight-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-brain text-3xl text-yellow-500 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-800">AI-Powered Personalization Initiatives</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        For multiple e-commerce clients, I drove the integration of AI-powered recommendation and personalization engines. This contributed to over 15% of total digital revenue. I managed the product backlog for these features, defined A/B testing plans, and used data analytics to validate their impact on user engagement and conversion rates.
+                    </p>
+                     <div class="mt-auto pt-4 border-t border-gray-200">
+                        <h4 class="font-semibold mb-2 text-gray-700">Skills Utilized:</h4>
+                        <span class="skill-tag">AI Personalization</span>
+                        <span class="skill-tag">A/B Testing & CRO</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Predictive Analytics</span>
+                        <span class="skill-tag">Google Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-20 md:mb-28 scroll-mt-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Professional Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative border-l-2 border-blue-200 ml-10 pl-10">
+                    <!-- BORN Group -->
+                    <div class="mb-12 timeline-item">
+                        <p class="text-sm text-gray-500">July 2019 - Present</p>
+                        <h3 class="text-2xl font-semibold text-gray-800">Senior Product Manager / Owner</h3>
+                        <p class="text-lg font-medium text-gray-600 mb-4">BORN Group</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Owned and managed the product backlog for multiple Agile development teams.</li>
+                            <li>Translated product roadmaps into detailed user stories and acceptance criteria.</li>
+                            <li>Facilitated sprint planning, backlog grooming, and sprint review ceremonies.</li>
+                            <li>Prioritized features based on business value, customer impact, and strategic goals.</li>
+                            <li>Served as the primary liaison between stakeholders and the development team.</li>
+                        </ul>
+                    </div>
+                    <!-- VLink Inc -->
+                    <div class="mb-12 timeline-item">
+                        <p class="text-sm text-gray-500">April 2017 - January 2018</p>
+                        <h3 class="text-2xl font-semibold text-gray-800">Product Owner</h3>
+                        <p class="text-lg font-medium text-gray-600 mb-4">VLink Inc</p>
+                         <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Conducted requirement analysis and created detailed BRD and FSD documents.</li>
+                            <li>Led scrum meetings and managed the product backlog for a team of five.</li>
+                            <li>Developed prototypes and conducted user demos to validate concepts.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center scroll-mt-20">
+            <div class="max-w-3xl mx-auto highlight-card text-white p-12 rounded-2xl shadow-xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Build Together</h2>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">
+                    I'm always looking for the next challenge and opportunity to deliver value. If you're looking for a dedicated Product Owner, let's connect.
+                </p>
+                <a href="mailto:nilanjana.chatterjee1989@gmail.com" class="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Get In Touch
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-20">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; <span id="current-year"></span> Nilanjana Chatterjee. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Mobile Menu Toggle ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // --- Close mobile menu when a link is clicked ---
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // --- Set current year in footer ---
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // --- Smooth scrolling for anchor links ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
